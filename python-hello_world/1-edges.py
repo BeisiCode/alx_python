@@ -1,5 +1,11 @@
-word = "Holberton"
+word = "Holberton" 
 # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
 print("First 3 letters: {}".format("Hol"))
 print("Last 2 letters: {}".format("on"))
 print("Middle word: {}".format("olberto"))
+
+word = "school"
+print("First 3 letters: {}".format('Sch'))
+print("Last 2 letters: {}".format('ol'))
+print("Middle word: {}".format('choo'))
+
