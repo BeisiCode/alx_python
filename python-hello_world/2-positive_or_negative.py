@@ -1,6 +1,6 @@
 import random
 
-number = random.randint(-100, 100)
+number = random.randint(-10, 10)
 
 print(number)
 
@@ -10,3 +10,4 @@ elif number == 0:
     print("is zero")
 else:
     print("is negative")
+
