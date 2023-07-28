@@ -5,9 +5,7 @@ def add(a, b):
         b = carry << 1
 
     return a
-
 # main.py
-
 #add = __import__('0-sum').add
 
 print(add(1, 2))
