@@ -1,0 +1,1 @@
+Here we are at python functions. It hasn'tbeen an easy journey but there's more to accomplish.
