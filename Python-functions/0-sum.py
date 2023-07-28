@@ -14,9 +14,7 @@ if __name__ == "__main__":
     print(add(98, 0))
     print(add(100, -2))
     '''
-
 # 0-sum.py
-
 def add(a, b):
     while b != 0:
         carry = a & b
