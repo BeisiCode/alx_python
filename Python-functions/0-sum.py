@@ -8,7 +8,7 @@ def add(a, b):
 
 # main.py
 
-add = __import__('0-sum').add
+#add = __import__('0-sum').add
 
 print(add(1, 2))
 print(add(98, 0))
