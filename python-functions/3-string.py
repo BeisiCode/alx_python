@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
 def reverse_string(string, end=''):
-    reverse_string = string[::-1]
-    return reverse_string
-result = reverse_string("Hello, World!")
-print(result)
+    reversed_str = ""
+    for i in range(len(string) - 1, -1, -1):
+        reversed_str += string[i]
+    return reversed_str
 
-print(reverse_string("hello"))  # Output: "olleh"
-print(reverse_string("python")) # Output: "nohtyp"
-print(reverse_string(""))       # Output: ""
+print(reverse_string("Hello"))         # Output: "olleH"
+print(reverse_string(""))              # Output: ""
+print(reverse_string("madam"))         # Output: "madam"
+print(reverse_string("Hello, World!")) # Output: "!dlroW ,olleH"
