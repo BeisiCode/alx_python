@@ -1,11 +1,12 @@
+#!/usr/bin/env python3
 def main():
-    convert_to_celcius(100)
-    convert_to_celcius(-40)
-    convert_to_celcius(-459.67)
-    convert_to_celcius(32)
+    (pow(2, 2))
+    (pow(98, 2))
+    (pow(98, 0))
+    (pow(100, -2))
+    (pow(-4, 5))
 
-def convert_to_celcius(fahrenheit):
-    celcius = (fahrenheit - 32) * 5 / 9
-    return celcius
+def pow(a,b):
+    return a**b
 
 main()
