@@ -6,6 +6,12 @@ def main():
     convert_to_celcius(-459.67)
     convert_to_celcius(32)
 
+    print(convert_to_celsius(100))
+    print(convert_to_celsius(-40))
+    print(convert_to_celsius(-459.67))
+    print(convert_to_celsius(32))
+
+
 def convert_to_celcius(fahrenheit):
     celcius = (fahrenheit - 32) * 5 / 9
     return celcius
