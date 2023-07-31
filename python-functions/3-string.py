@@ -1,4 +1,4 @@
-def reverse_string(string):
+def reverse_string(string, end=''):
     reverse_string = string[::-1]
     return reverse_string
 
