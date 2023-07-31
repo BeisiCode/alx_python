@@ -1,3 +1,4 @@
+reverse_string = __import__('3-string').reverse_string
 def reverse_string(string, end=''):
     reverse_string = string[::-1]
     return reverse_string
