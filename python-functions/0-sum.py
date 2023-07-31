@@ -1,5 +1,5 @@
 # Function to add two integers
-def add(a, b):
+def add(a, b, end=''):
     while b != 0:
         carry = a & b
         a = a ^ b
