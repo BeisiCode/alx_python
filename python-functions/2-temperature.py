@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-convert_to_celsius = __import__('2-temperature').convert_to_celsius
+
 #!/usr/bin/env python3
 
 def main():
