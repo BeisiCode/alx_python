@@ -4,7 +4,7 @@ def reverse_string(string):
         reversed_str += string[i]
     return reversed_str
 
-print(reverse_string("Hello") end=' ')         # Output: "olleH"
+print(reverse_string("Hello"), end=' ')         # Output: "olleH"
 print(reverse_string(""))              # Output: ""
 print(reverse_string("madam"))         # Output: "madam"
 print(reverse_string("Hello, World!")) # Output: "!dlroW ,olleH"
