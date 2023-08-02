@@ -1,5 +1,5 @@
-def reverse_string(string, end=''):
-    reverse_string = string[::-1]
+def reverse_string(string, /n):
+    reverse_string = string[:-1]
     return reverse_string
 
 print(reverse_string("Hello"))         # Output: "olleH"
