@@ -1,6 +1,6 @@
-def reverse_string(string, /n):
-    reverse_string = string[:-1]
-    return reverse_string
+def reverse_string(string):
+    reversed = string[::-1]
+    return (reversed)
 
 print(reverse_string("Hello"))         # Output: "olleH"
 print(reverse_string(""))              # Output: ""
