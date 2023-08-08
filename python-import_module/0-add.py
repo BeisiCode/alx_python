@@ -1,8 +1,7 @@
-# add_0.py
-import 
+# main.py
 def add(a, b):
     return a + b
-# main.py
+
 a = 1
 b = 2
 
