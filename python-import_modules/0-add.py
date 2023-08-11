@@ -7,5 +7,5 @@ from add_0 import sum
 
 if __name__ == "__main__":
     # Printing the result using string formatting
-    result = add_0.add(a, b)
-    print(f"{a} + {b} = {result}")
+       result = add_0.add(a, b)
+       print("{} + {} = {}".format(a, b, result))
