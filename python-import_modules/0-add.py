@@ -2,8 +2,7 @@
 a = 1
 b = 2
 
-
-from add_0 import add as function
+import add_0 as function
 
 if __name__ == "__main__":
     
