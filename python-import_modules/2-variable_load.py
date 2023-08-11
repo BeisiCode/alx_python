@@ -1,4 +1,4 @@
-# main.py
+
 import variable_load_2
 
 if __name__ == "__main__":
