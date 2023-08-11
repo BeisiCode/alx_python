@@ -11,3 +11,4 @@ def safe_print_division(a, b):
 a = 10
 b = 2
 safe_print_division(a, b)
+
