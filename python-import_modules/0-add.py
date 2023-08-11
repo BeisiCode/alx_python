@@ -3,7 +3,7 @@ a = 1
 b = 2
 
 
-import add_0 as function
+from add_0 import sum as function
 
 if __name__ == "__main__":
     
