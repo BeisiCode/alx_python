@@ -7,17 +7,17 @@ class Square:
         return self.__size
 
     @size.setter
-    def size(self, value):
+    def size(self, value, end=" "):
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-    def area(self):
+    def area(self, end=" "):
         return self.__size ** 2
 
-    def my_print(self):
+    def my_print(self, end=" "):
         if self.__size == 0:
             print()
         else:
