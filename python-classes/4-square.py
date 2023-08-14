@@ -26,15 +26,12 @@ class Square:
 
 my_square = Square(3)
 my_square.my_print()
-print("--") 
-
-end=""
+print(("--"), end=" ")
 
 my_square.size = 10
 my_square.my_print()
-print("--")
+print(("--"), end=" ")
 
-end=" "
 my_square.size = 0
 my_square.my_print()
-print("--")
+print(("--"), end=" ")
