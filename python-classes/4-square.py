@@ -1,7 +1,7 @@
 class Square:
     def __init__(self, size=0):
         self.size = size
-
+    Square = __import__('4-square').Square
     @property
     def size(self):
         return self.__size
