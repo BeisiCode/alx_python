@@ -1,4 +1,3 @@
-Square = __import__('4-square').Square
 class Square:
     def __init__(self, size=0):
         self.size = size
