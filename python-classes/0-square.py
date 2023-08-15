@@ -4,7 +4,7 @@ class Square:
 
 my_square = Square(3)
 
-print(*type(my_square), sep=", ")
+print(type(my_square), sep=", ")
 
 print(my_square.__dict__)
 
