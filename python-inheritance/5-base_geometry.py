@@ -7,6 +7,8 @@ class BaseGeometry:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
+        pass
+    
 bg = BaseGeometry()
 
 bg.integer_validator("my_int", 12)
