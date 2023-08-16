@@ -4,9 +4,8 @@ class Square:
 
 my_square = Square(3)
 
-print(type(my_square), sep=", ")
-
-print(my_square.__dict__)
+print(type(my_square), file=open(1, 'w', closefd=False))
+print(my_square.__dict__, file=open(1, 'w', closefd=False), sep="\n")
 
 try:
     print(my_square.size)
