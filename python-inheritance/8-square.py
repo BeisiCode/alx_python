@@ -23,10 +23,12 @@ class Rectangle(BaseGeometry):
 
 class Square(Rectangle):
     def __init__(self, size):
+        self.__size = size
+        self.integer_validator("size", size)
         super().__init__(size, size)
 
     def __str__(self):
-        return "[Square] {}/{}".format(self._Rectangle__width, self._Rectangle__height)
+        return "[Square] {}/{}".format(self.__size, self.__size)
 
 if __name__ == "__main__":
     s = Square(13)
