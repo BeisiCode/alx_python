@@ -3,5 +3,5 @@ class BaseGeometry:
 bg = BaseGeometry()
 
 print(bg)
-print((bg))
-print((BaseGeometry))
+print(dir(bg))
+print(dict(BaseGeometry))
