@@ -4,4 +4,4 @@ bg = BaseGeometry()
 
 print(bg)
 print(dir(bg))
-print(dict(BaseGeometry))
+print(dir(BaseGeometry))
